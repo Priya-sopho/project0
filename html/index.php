@@ -7,5 +7,6 @@
     render('header',array('title'=>'Three Ace'));
     echo "<b>"."Menu"."</b>"."<br>";
     render('menu');
+    render('menu');
     render('footer');
  ?>   
