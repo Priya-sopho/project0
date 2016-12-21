@@ -187,45 +187,50 @@
  <title>Special Pizza</title>
  <Item>
   <Name>Mediterranean</Name>
-  <Descp>Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozarrella &amp; Feta Cheese</descp>
+  <descp>Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozarrella &amp; Feta Cheese</descp>
   <Small>
    <Price>9.80</Price>
+  </Small> 
   <Large>
    <Price>15.80</Price>
   </Large>
  </Item>
  <Item>
   <Name>Vegetarian</Name>
-  <Descp>Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella<descp>
+  <descp>Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella</descp>
   <Small>
    <Price>9.80</Price>
+  </Small> 
   <Large>
    <Price>15.80</Price>
   </Large>
  </Item>
  <Item>
   <Name>Meat Lovers</Name>
-  <Descp>Peperoni, Hamburg, Sausage &amp; Bacon</descp>
+  <descp>Peperoni, Hamburg, Sausage &amp; Bacon</descp>
   <Small>
    <Price>9.80</Price>
+  </Small>  
   <Large>
    <Price>15.80</Price>
   </Large>
  </Item>
  <Item>
   <Name>Bbq Grilled Chicken</Name>
-  <Descp>Choice of vegetables</descp>
+  <descp>Choice of vegetables</descp>
   <Small>
    <Price>9.80</Price>
+  </Small> 
   <Large>
    <Price>15.80</Price>
   </Large>
  </Item>
  <Item>
   <Name>Grecian Supreme</Name>
-  <Descp>Grilled Chicken, Feta Cheese, tomatoes, Kalamata Olives</descp>
+  <descp>Grilled Chicken, Feta Cheese, tomatoes, Kalamata Olives</descp>
   <Small>
    <Price>9.80</Price>
+  </Small> 
   <Large>
    <Price>15.80</Price>
   </Large>
@@ -259,17 +264,17 @@
   </Item>
   <Item>
    <Name>Chicken Kabob Plate</Name>
-   <Descp>With rice, salad &amp; pita bread</descp>
+   <descp>With rice, salad &amp; pita bread</descp>
    <Price>7.85</Price>
   </Item>
   <Item>
    <Name>Steak Tips Dinner</Name>
-   <Descp>Served with salad &amp; french fries</descp>
+   <descp>Served with salad &amp; french fries</descp>
    <Price>8.25</Price>
   </Item>
   <Item>
    <Name>Fish &amp; Chips Dinner</Name>
-   <Descp>Served with side salad, french fries &amp; tartar sauce</descp>
+   <descp>Served with side salad, french fries &amp; tartar sauce</descp>
    <Price>7.35</Price>
   </Item>
   </Category>
@@ -311,11 +316,12 @@
    </Item>
    </Category>
    <Category>
-   <title>salads</tltle>
+   <title>salads</title>
     <Item>
      <Name>Garden</Name>
      <Small>
       <Price>3.50</Price>
+     </Small>  
      <Large>
       <Price>4.50</Price>
      </Large>
@@ -324,6 +330,7 @@
      <Name>Greek</Name>
      <Small>
       <Price>4.50</Price>
+     </Small>  
      <Large>
       <Price>5.50</Price>
      </Large>
@@ -332,6 +339,7 @@
      <Name>Antipasto</Name>
      <Small>
       <Price>4.50</Price>
+     </Small>  
      <Large>
       <Price>5.50</Price>
      </Large>
@@ -340,6 +348,7 @@
      <Name>Chef</Name>
      <Small>
       <Price>4.50</Price>
+     </Small>  
      <Large>
       <Price>5.50</Price>
      </Large>
@@ -348,6 +357,7 @@
      <Name>Tuna</Name>
      <Small>
       <Price>4.50</Price>
+     </Small>
      <Large>
       <Price>5.50</Price>
      </Large>
@@ -356,6 +366,7 @@
      <Name>Grilled Chicken</Name>
      <Small>
       <Price>4.95</Price>
+     </Small>
      <Large>
       <Price>5.95</Price>
      </Large>
@@ -364,6 +375,7 @@
      <Name>Kabob Salad</Name>
      <Small>
       <Price>5.45</Price>
+     </Small>
      <Large>
       <Price>6.45</Price>
      </Large>
@@ -397,7 +409,7 @@
    </Item>
   <Item>
     <Name>A La Three Aces</Name>
-    <Descp>Sausage, Mushrooms, Bacon &amp; Ham Topped with Sauce &amp; Mozzarella Cheese</desp>
+    <descp>Sausage, Mushrooms, Bacon &amp; Ham Topped with Sauce &amp; Mozzarella Cheese</descp>
     <Price>6.45</Price>
    </Item>
   </Category>
