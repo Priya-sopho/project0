@@ -4,9 +4,18 @@
 
 <?php 
     require_once('../includes/helpers.php');
-    render('header',array('title'=>'Three Ace'));
-    echo "<b>"."Menu"."</b>"."<br>";
-    render('menu');
-    render('menu');
-    render('footer');
+    // this is the main controller that handle the request from URL
+    if (isset($_GET['para1'])) {
+        $cat   = $_GET['para2'];
+        $cat   = str_replace('-', ' ', $cat);
+        $items = query_items($cat);
+        render('header', ['title' => $cat]);
+        render('category', ['items' => $items]);
+        render('footer');
+    }
+    else {
+        render('header');
+        render('index');
+        render('footer');
+    }
  ?>   

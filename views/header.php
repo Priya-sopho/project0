@@ -13,4 +13,4 @@
   <a href="/shopping_cart.php" style="float:right"></a>
  
  //render menu
- <?php isset($title))? load_menu($title):load_menu() ?>
+ <?php isset($title)? load_menu($title):load_menu() ?>

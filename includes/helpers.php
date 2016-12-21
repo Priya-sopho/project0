@@ -38,11 +38,14 @@
     //define url for each menu button
     foreach($categories as $category)
     {
-      $category->url = '/category/'.str_replace(' ','-',$category->title);
+      $category->url = '/Category/'.str_replace(' ','-',$category->title);
     }
-
-    render('menu',['title'=> $title, 'categories' => $category]);
+  
+  render('menu',['title' => $title, 'categories' => $categories]);
+  
   }  
+
+
 
 
  /**

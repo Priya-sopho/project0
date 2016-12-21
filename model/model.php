@@ -4,6 +4,6 @@
  $xml= simplexml_load_file('../model/pizza_ml.xml');
 
  //Select each category
- $category=$xml->xpath('/Menu/Category');
+ $categories=$xml->xpath('/Menu/Category');
 
 ?> 
