@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <Menu>
- <Category name ="Pizza">
+ <Category>
+ <title>Pizza</title>
   <Item>
    <Name>Tomato &amp; Cheese</Name>
    <Small>
@@ -182,7 +183,8 @@
    </Large>
   </Item> 
  </Category>
- <Category name="Special Pizza">
+ <Category>
+ <title>Special Pizza</title>
  <Item>
   <Name>Mediterranean</Name>
   <Descp>Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozarrella &amp; Feta Cheese</descp>
@@ -229,7 +231,8 @@
   </Large>
  </Item>
  </Category>
- <Category name="Special Dinners">
+ <Category>
+ <title>Special Dinners</title>
   <Item>
    <Name>Chicken Wing Dinner</Name>
    <Price>7.25</Price>
@@ -270,7 +273,8 @@
    <Price>7.35</Price>
   </Item>
   </Category>
-  <Category name="Side Orders">
+  <Category>
+  <title>Side Orders</title>>
    <Item>
     <Name>Onion Rings</Name>
     <Small>
@@ -306,7 +310,8 @@
     </Large>
    </Item>
    </Category>
-   <Category name="salads">
+   <Category>
+   <title>salads</tltle>
     <Item>
      <Name>Garden</Name>
      <Small>
@@ -364,7 +369,8 @@
      </Large>
     </Item>
   </Category>
-  <Category name="Spaghetti or Zitti">
+  <Category>
+  <title>Spaghetti or Zitti</title>
    <Item>
     <Name>With Sauce</Name>
     <Price>5.40</Price>
